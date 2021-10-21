@@ -1,0 +1,15 @@
+.butttonContainer {
+  background-color: #1091c1;
+  padding: 10px;
+  color: whitesmoke;
+  font-weight: 700;
+  border-radius: 7px;
+  box-shadow: 0 0px 10px lightblue;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.butttonContainer:hover {
+  background-color: lightblue;
+}

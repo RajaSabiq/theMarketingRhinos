@@ -1,0 +1,33 @@
+.heroSectionContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heroSectionContactUs {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroSectionContactUs > h2 {
+  margin: 0px;
+  margin-top: 75px;
+  margin-bottom: 10px;
+  font-size: xx-large;
+}
+
+.heroSectionContactUs > p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 180%;
+  font-size: larger;
+}
+
+.heroSectionBanner {
+  width: 600px;
+  height: 400px;
+  margin-left: -100px;
+}
