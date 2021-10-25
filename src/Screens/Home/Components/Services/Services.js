@@ -14,8 +14,9 @@ import {
 
 function Services() {
   return (
-    <div class='container'>
+    <div class='serviceContainer'>
       <h1>Our Services</h1>
+      <h3 class='small-title'>Services that we provide</h3>
       <div class='row'>
         <div class='service'>
           <FontAwesomeIcon icon={faLaptopCode} size='3x' />

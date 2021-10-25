@@ -1,0 +1,79 @@
+.teamMember {
+  padding: 30px;
+  background: '#fff';
+  border-radius: 5px;
+  margin: 25px;
+  box-shadow: 0px 0px 10px #ccc;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 270px;
+  height: 400px;
+}
+
+.teamImageSection {
+  position: relative;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  border: 4px dashed transparent;
+  transition: padding 0.3s;
+  width: 250px !important;
+  height: 250px !important;
+}
+
+.teamMember:hover {
+  background: linear-gradient(to left, #016cec, #00b5f7);
+}
+
+.teamMember:hover .teamImageSection {
+  padding: 12px;
+  border: 4px dashed #fff;
+}
+
+.teamPersonImage {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.teamIcon {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  display: flex;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: linear-gradient(to right, #016cec, #00b5f7);
+  color: #fff;
+  border-radius: 50%;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamIcon > img {
+  height: 25px;
+  width: 25px;
+  filter: invert(100%);
+}
+
+.teamIcon > img > path {
+  fill: #fff;
+}
+
+.teamMember:hover .teamIcon > img {
+  filter: invert(0%);
+}
+
+.teamMember:hover .teamIcon {
+  background: white;
+}
+
+.personInfo {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}

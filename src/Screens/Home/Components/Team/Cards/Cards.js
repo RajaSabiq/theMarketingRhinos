@@ -3,19 +3,16 @@ import './Card.css';
 
 function Cards({ img, name, jobTitle, icon }) {
   return (
-    <div class='col-sm-6 col-lg-4 col-xl-3'>
-      <div class='single-person'>
-        <div class='person-image'>
-          <img src={img} alt='' />
-          <span class='icon'>
-            <i class='fab fa-wordpress-simple'></i>
-          </span>
+    <div className='teamMember'>
+      <div className='teamImageSection'>
+        <img className='teamPersonImage' src={img} alt='' />
+        <div className='teamIcon'>
+          <img src={icon} alt='' />
         </div>
-
-        <div class='person-info'>
-          <h3 class='full-name'>{name}</h3>
-          <span class='speciality'>{jobTitle}</span>
-        </div>
+      </div>
+      <div className='personInfo'>
+        <h3 className='full-name'>{name}</h3>
+        <span className='speciality'>{jobTitle}</span>
       </div>
     </div>
   );

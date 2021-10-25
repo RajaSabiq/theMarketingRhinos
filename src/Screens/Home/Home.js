@@ -12,7 +12,6 @@ function Home() {
       <HeroSection />
       <WhyChoiceUs />
       <Services />
-      <Projects />
       <Team />
     </div>
   );
